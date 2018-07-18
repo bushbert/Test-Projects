@@ -1,4 +1,5 @@
 using System;
+using FormsAnywhere.Client.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace App2
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new ExpandableMenu();
 		}
 
 		protected override void OnStart ()
